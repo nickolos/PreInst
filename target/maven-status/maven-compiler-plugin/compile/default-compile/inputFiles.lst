@@ -1,0 +1,9 @@
+/home/nick/Документы/NII TP/Precision Instrument/src/main/java/org/example/product/controller/ProductController.java
+/home/nick/Документы/NII TP/Precision Instrument/src/main/java/org/example/product/model/ResponseCreatedProduct.java
+/home/nick/Документы/NII TP/Precision Instrument/src/main/java/org/example/product/model/RequestCreateProduct.java
+/home/nick/Документы/NII TP/Precision Instrument/src/main/java/org/example/product/service/ProductService.java
+/home/nick/Документы/NII TP/Precision Instrument/src/main/java/org/example/product/Application.java
+/home/nick/Документы/NII TP/Precision Instrument/src/main/java/org/example/product/entities/Product.java
+/home/nick/Документы/NII TP/Precision Instrument/src/main/java/org/example/product/model/ListProducts.java
+/home/nick/Документы/NII TP/Precision Instrument/src/main/java/org/example/product/repository/ProductRepository.java
+/home/nick/Документы/NII TP/Precision Instrument/src/main/java/org/example/product/service/ProductServiceImpl.java

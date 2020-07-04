@@ -1,3 +1,4 @@
+
 CREATE DATABASE preinst
     WITH
     OWNER = postgres
