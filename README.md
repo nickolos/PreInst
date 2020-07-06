@@ -35,6 +35,5 @@ GET http://localhost:9000/org.product/{id_product}
 ```sh
 $ mvn clean install
 $ mvn package
-$ NODE_ENV=production node app
 ```
 
