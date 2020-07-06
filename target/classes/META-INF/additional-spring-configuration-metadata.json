@@ -1,8 +1,0 @@
-{
-  "properties": [
-    {
-      "name": "product.micro.service",
-      "type": "java.lang.String",
-      "description": "Description for product.micro.service."
-  }
-] }

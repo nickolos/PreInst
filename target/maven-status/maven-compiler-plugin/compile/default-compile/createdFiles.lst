@@ -1,9 +1,0 @@
-org/example/product/controller/ProductController.class
-org/example/product/model/ResponseCreatedProduct.class
-org/example/product/service/ProductServiceImpl.class
-org/example/product/repository/ProductRepository.class
-org/example/product/entities/Product.class
-org/example/product/Application.class
-org/example/product/model/ListProducts.class
-org/example/product/model/RequestCreateProduct.class
-org/example/product/service/ProductService.class
