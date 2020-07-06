@@ -22,7 +22,11 @@ public class ProductServiceImpl implements ProductService {
 
     @Autowired
     private ProductRepository productRepository;
-
+    /**
+     * Find product by id from BaseData
+     * @param id identify product
+     * @return product object
+     */
     @Override
     @Transactional
     public Product findById(Long id) {
@@ -30,12 +34,21 @@ public class ProductServiceImpl implements ProductService {
        return productRepository.findById(id).get();
     }
 
+    /**
+     * Delete product by id from BaseData
+     * @param id identify product
+     */
     @Override
     @Transactional
     public void deleteProduct(Long id) {
         productRepository.deleteById(id);
     }
 
+
+    /**
+     * Find all products from BaseData
+     * @return list products
+     */
     @Override
     @Transactional
     public ListProducts findAllProduct() {
@@ -46,6 +59,11 @@ public class ProductServiceImpl implements ProductService {
         return new ListProducts(productRepository.findAll());
     }
 
+    /**
+     * Create new product to BaseData
+     * @param requestCreateProduct object product from request
+     * @return responseCreatedProduct object product to response
+     */
     @Override
     @Transactional
     public ResponseCreatedProduct createProduct(RequestCreateProduct requestCreateProduct) {
